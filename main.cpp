@@ -1,5 +1,5 @@
 #include <string>
-#include "Dizionario.cpp"
+#include "Dizionarioesteso.cpp"
 
 int main() {
 
