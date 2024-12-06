@@ -63,7 +63,7 @@ public:
     bool appartiene(const std::string key) const {
         int index = hashFunction(key);
 
-        if (table[index].isOccupied == truw && table[index].key == key) {
+        if (table[index].isOccupied == true && table[index].key == key) {
             return true; // La chiave è presente
         }
         else
